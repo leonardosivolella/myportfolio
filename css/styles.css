@@ -1,0 +1,37 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.wrapper {
+    width:100vw;
+    height:100vh;
+    background-color:rgb(14, 5, 5)
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.brand {
+    color:rgb(253, 250, 246)
+}
+.brand span{
+    color: aqua;
+}
+
+.menu li {
+    list-style: none;
+
+}
+.menu a{
+color:rgb(253, 250, 246);
+text-decoration:none;
+}
